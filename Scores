@@ -1,0 +1,10 @@
+#Задание 1
+score_list=[{'school_class': '4a', 'scores': [3,4,4,5,2]},
+	{'school_class': '4b', 'scores': [4,4,4,5,3]}
+	{'school_class': '4c', 'scores': [3,4,4,3,2]}]
+avg_score_class=[]
+avg_score_school=0
+for scores in score_list:
+	scores_class=scores.get('scores')
+	avg_score_class.append(scores_class)
+	print(scores_class)
